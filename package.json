@@ -1,0 +1,47 @@
+{
+    "name": "nebula",
+    "displayName": "Nebula",
+    "description": "Nebula is a collection of light & dark themes for Visual Studio Code with a well balanced purple-centered palette",
+    "version": "0.1.0",
+    "publisher": "amithegde",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "galleryBanner": {
+        "color": "#030712",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amithegde/Nebula.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "nebula",
+        "dark",
+        "purple"
+    ],
+    "scripts": {
+        "build": "node src/build.mjs"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nebula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nebula.json"
+            },
+            {
+                "label": "Nebula Light",
+                "uiTheme": "vs",
+                "path": "./themes/nebula-light.json"
+            }
+        ]
+    }
+}
