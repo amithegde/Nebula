@@ -1,4 +1,4 @@
-# Nebula
+# Nebulator
 
 A collection of light & dark themes for Visual Studio Code with a well balanced purple-centered palette.
 
@@ -25,8 +25,8 @@ A collection of light & dark themes for Visual Studio Code with a well balanced 
 
 | Theme | Type |
 | --- | --- |
-| Nebula | Dark |
-| Nebula Light | Light |
+| Nebulator | Dark |
+| Nebulator Light | Light |
 
 ## Build
 
@@ -34,8 +34,8 @@ Regenerates `themes/*.json` from the sources in `src/`:
 
 - `src/colors.mjs` — syntax color palettes
 - `src/syntax.mjs` — token scope definitions
-- `src/workbench/nebula.mjs` — workbench (UI) colors for Nebula
-- `src/workbench/nebula-light.mjs` — workbench (UI) colors for Nebula Light
+- `src/workbench/nebula.mjs` — workbench (UI) colors for Nebulator
+- `src/workbench/nebula-light.mjs` — workbench (UI) colors for Nebulator Light
 
 ```bash
 npm run build
@@ -47,29 +47,29 @@ npm run build
 npx @vscode/vsce package
 ```
 
-This produces `nebula-<version>.vsix`.
+This produces `nebulator-<version>.vsix`.
 
 ## Install
 
 **VS Code:**
 
 ```bash
-code --install-extension nebula-<version>.vsix
+code --install-extension nebulator-<version>.vsix
 ```
 
 **VS Code Insiders:**
 
 ```bash
-code-insiders --install-extension nebula-<version>.vsix
+code-insiders --install-extension nebulator-<version>.vsix
 ```
 
 Alternatively, in either editor: Extensions view (`Ctrl+Shift+X`) → `⋯` → **Install from VSIX...**.
 
-Then select the theme with `Ctrl+K Ctrl+T` → **Nebula** or **Nebula Light**.
+Then select the theme with `Ctrl+K Ctrl+T` → **Nebulator** or **Nebulator Light**.
 
 ## Test locally
 
-Open this folder in VS Code and press `F5`, then pick **Nebula** or **Nebula Light** from the color theme picker (`Ctrl+K Ctrl+T`).
+Open this folder in VS Code and press `F5`, then pick **Nebulator** or **Nebulator Light** from the color theme picker (`Ctrl+K Ctrl+T`).
 
 ## Credits
 

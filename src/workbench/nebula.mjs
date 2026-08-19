@@ -1,5 +1,5 @@
 export default (syntax) => ({
-   name: 'Nebula',
+   name: 'Nebulator',
    type: 'dark',
    colors: {
       // ---------------------------
